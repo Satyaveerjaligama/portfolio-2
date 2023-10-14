@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative');
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url('https://fonts.googleapis.com/css?family=Lilita+One');
+@import url('https://fonts.googleapis.com/css?family=Mansalva');
+
 .App {
   text-align: center;
+}
+
+#light.App{
+  background-color: white !important;
+}
+
+#dark.App{
+  background-color: #282c34 !important;
 }
 
 .App-logo {
@@ -45,4 +59,21 @@
 #dark .header {
   background-color: #282c34;
   color: white;
+}
+
+.contactIcons {
+  font-size: 10vh !important;
+  background-color: transparent !important;
+}
+
+#light .contactIcons {
+  color: #282c34 !important;
+}
+
+#dark .contactIcons {
+  color: white !important;
+}
+
+.contactCard {
+  background-color: transparent !important;
 }

@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { websiteTheme } from "../App";
 
 const TopBar = () => {
-    const headerList = ['Experience', 'Skills', 'Hobbies'];
+    const headerList = ['Experience', 'Skills', 'Hobbies', 'Contact'];
     const context = useContext(websiteTheme);
 
   return (
