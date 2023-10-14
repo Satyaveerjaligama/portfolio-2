@@ -1,0 +1,38 @@
+.experienceCard {
+    text-align: left;
+    background-color: transparent !important;
+    display: flex;
+    justify-content: space-around;
+}
+
+.singleCard {
+    padding: 10px;
+    border-radius: 20px !important;
+    background-color: transparent !important;
+    box-shadow: 0px 1px 4px black !important;
+}
+
+#dark .singleCard {
+    color: white;
+}
+
+.roleTitle {
+    font-family: "Lilita One" !important;
+    text-decoration: underline;
+}
+
+.companyName, .companySkills {
+    font-family: "Signika Negative" !important;
+}
+
+.workExperienceTitle {
+    font-family: "Mansalva" !important;
+}
+
+#dark .experienceMain {
+    color: white !important;
+}
+
+#light .experienceMain {
+    color: #282c34 !important;
+}
