@@ -3,9 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat');
 @import url('https://fonts.googleapis.com/css?family=Lilita+One');
 @import url('https://fonts.googleapis.com/css?family=Mansalva');
+@import url('https://fonts.googleapis.com/css?family=Young+Serif');
 
 .App {
   text-align: center;
+  font-family: "Young Serif";
 }
 
 #light.App{
@@ -74,6 +76,7 @@
   color: white !important;
 }
 
-.contactCard {
+.contactMain {
   background-color: transparent !important;
+  margin-top: 100px;
 }

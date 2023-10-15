@@ -1,9 +1,10 @@
-import { Card, Grid, Link } from "@mui/material";
+import { Box, Grid, Link, Typography } from "@mui/material";
 import { LinkedIn, WhatsApp, Instagram, EmailOutlined, GitHub } from "@mui/icons-material";
 
 const ContactCard = () => {
     return (
-        <Card className="contactCard">
+        <Box className="contactMain">
+            <Typography variant="h4" sx={{fontFamily: "Young Serif"}}>Contact Me</Typography>
             <Grid container>
                 <Grid item xs={6} sm={2.4}>
                     <Link href="https://www.linkedin.com/in/satyaveer-jaligama" target="_blank">
@@ -31,7 +32,7 @@ const ContactCard = () => {
                     </Link>
                 </Grid>
             </Grid>
-        </Card>
+        </Box>
     )
 }
 
