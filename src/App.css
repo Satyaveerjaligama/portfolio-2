@@ -12,10 +12,12 @@
 
 #light.App{
   background-color: white !important;
+  color: #282c34 !important;
 }
 
 #dark.App{
   background-color: #282c34 !important;
+  color: white !important;
 }
 
 .App-logo {
@@ -79,4 +81,28 @@
 .contactMain {
   background-color: transparent !important;
   margin-top: 100px;
+}
+
+.font-young-serif {
+  font-family: "Young Serif" !important;
+}
+
+.font-signika-negative {
+  font-family: "Signika Negative" !important;
+}
+
+.font-size-20 {
+  font-size: 20px !important;
+}
+
+.text-decoration-underline {
+  text-decoration: underline !important;
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+.text-dark {
+  color: #282c34 !important;
 }

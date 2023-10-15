@@ -3,6 +3,7 @@ import ContactCard from "../Components/ContactCard";
 import ExperienceCard from "../Components/ExperienceCard";
 import Intro from "../Components/Intro";
 import Skills from "../Components/Skills";
+import Education from "../Components/Education";
 
 const Portfolio = () => {
   return (
@@ -11,6 +12,7 @@ const Portfolio = () => {
       <Intro />
       <Skills />
       <ExperienceCard />
+      <Education />
       <ContactCard />
     </>
   );

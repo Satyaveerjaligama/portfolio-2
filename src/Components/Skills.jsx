@@ -40,7 +40,7 @@ const Skills = () => {
         },
     ]
     return (
-        <Box id="skills" sx={{marginTop: "100px"}}>
+        <Box id="Skills" sx={{marginTop: "100px"}}>
             <Typography variant="h4" sx={{fontFamily: "Young Serif"}}>Skills</Typography>
             <div style={{display: "flex", justifyContent: "center", flexWrap: "wrap"}}>
             {skillsList.map((skill)=>

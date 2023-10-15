@@ -3,7 +3,7 @@ import { LinkedIn, WhatsApp, Instagram, EmailOutlined, GitHub } from "@mui/icons
 
 const ContactCard = () => {
     return (
-        <Box className="contactMain">
+        <Box id="Contact" className="contactMain">
             <Typography variant="h4" sx={{fontFamily: "Young Serif"}}>Contact Me</Typography>
             <Grid container>
                 <Grid item xs={6} sm={2.4}>
