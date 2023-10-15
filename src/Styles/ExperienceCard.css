@@ -16,13 +16,13 @@
     color: white;
 }
 
-.roleTitle {
-    font-family: "Lilita One" !important;
-    text-decoration: underline;
+.companyName, .companySkills, .experienceDuration, .workDescription {
+    font-family: "Signika Negative" !important;
 }
 
-.companyName, .companySkills {
-    font-family: "Signika Negative" !important;
+.companyName {
+    font-size: 20px !important;
+    text-decoration: underline !important;
 }
 
 .workExperienceTitle {
