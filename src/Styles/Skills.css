@@ -1,0 +1,18 @@
+.skillCard {
+    box-shadow: 0px 1px 4px black !important;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px !important;
+    flex-basis: 100px;
+    margin: 20px 10px 0px 10px;
+}
+
+.skillCard:hover {
+    background-color: antiquewhite;
+    box-shadow: 0px 1px 10px black !important;
+}
+
+#dark .skillCard:hover {
+    background-color: antiquewhite;
+    box-shadow: 0px 1px 10px white !important;
+}
