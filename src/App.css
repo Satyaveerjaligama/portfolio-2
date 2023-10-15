@@ -106,3 +106,23 @@
 .text-dark {
   color: #282c34 !important;
 }
+
+#light .header-text {
+  color: #282c34 !important;
+}
+
+#dark .header-text {
+  color: white !important;
+}
+
+.MuiSwitch-switchBase.Mui-checked {
+  color: white !important;
+}
+
+.MuiSwitch-switchBase {
+  color: #282c34 !important;
+}
+
+.MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+  background-color: white !important;
+}
