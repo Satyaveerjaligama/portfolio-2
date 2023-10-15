@@ -5,7 +5,7 @@ const ContactCard = () => {
     return (
         <Box id="Contact" className="contactMain">
             <Typography variant="h4" sx={{fontFamily: "Young Serif"}}>Contact Me</Typography>
-            <Grid container>
+            <Grid container sx={{paddingTop: "20px"}}>
                 <Grid item xs={6} sm={2.4}>
                     <Link href="https://www.linkedin.com/in/satyaveer-jaligama" target="_blank">
                         <LinkedIn className="contactIcons"/>
