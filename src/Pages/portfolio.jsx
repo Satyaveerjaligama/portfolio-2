@@ -5,6 +5,7 @@ import Intro from "../Components/Intro";
 import Skills from "../Components/Skills";
 import Education from "../Components/Education";
 import Footer from "../Components/Footer";
+import Hobbies from "../Components/Hobbies";
 
 const Portfolio = () => {
   return (
@@ -14,6 +15,7 @@ const Portfolio = () => {
       <Skills />
       <ExperienceCard />
       <Education />
+      <Hobbies />
       <ContactCard />
       <Footer />
     </>

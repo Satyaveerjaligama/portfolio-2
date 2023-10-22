@@ -68,6 +68,12 @@
 .contactIcons {
   font-size: 10vh !important;
   background-color: transparent !important;
+  transition: transform 0.2s, box-shadow 0.2s !important;
+}
+
+.contactIcons:active{
+  transform: translateX(4px) translateY(4px) !important;
+  box-shadow: 0 0 0 #1C5C9B !important;
 }
 
 #light .contactIcons {
@@ -111,6 +117,24 @@
   color: #282c34 !important;
 }
 
+#light .header-text .title {
+  border-bottom: 2px solid white;
+}
+
+#dark .header-text .title {
+  border-bottom: 2px solid #282c34;
+}
+
+#light .header-text .title:hover {
+  color: crimson !important;
+  border-bottom: 2px solid crimson !important;
+}
+
+#dark .header-text .title:hover {
+  color: darkorange !important;
+  border-bottom: 2px solid darkorange !important;
+}
+
 #dark .header-text {
   color: white !important;
 }
@@ -125,4 +149,8 @@
 
 .MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
   background-color: white !important;
+}
+
+.align-self-center {
+  align-self: center !important;
 }
