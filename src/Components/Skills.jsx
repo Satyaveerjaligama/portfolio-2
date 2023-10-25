@@ -6,6 +6,7 @@ import cssLogo from "../Assests/CssLogo.png";
 import reactJsLogo from "../Assests/ReactJsLogo.png";
 import nextJsLogo from "../Assests/NextJsLogo.png";
 import tsLogo from "../Assests/TypeScriptLogo.png";
+import sassLogo from "../Assests/SassLogo.png";
 import "../Styles/Skills.css";
 
 const Skills = () => {
@@ -17,6 +18,10 @@ const Skills = () => {
         {
             logo: cssLogo,
             skillName: "CSS"
+        },
+        {
+            logo: sassLogo,
+            skillName: "Sass"
         },
         {
             logo: jsLogo,
