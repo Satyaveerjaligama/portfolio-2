@@ -7,6 +7,8 @@ import reactJsLogo from "../Assests/ReactJsLogo.png";
 import nextJsLogo from "../Assests/NextJsLogo.png";
 import tsLogo from "../Assests/TypeScriptLogo.png";
 import sassLogo from "../Assests/SassLogo.png";
+import viteJsLogo from "../Assests/ViteJsLogo.png";
+import reduxLogo from "../Assests/ReduxLogo.png";
 import "../Styles/Skills.css";
 
 const Skills = () => {
@@ -43,6 +45,14 @@ const Skills = () => {
             logo: gitLogo,
             skillName: "Git"
         },
+        {
+            logo: reduxLogo,
+            skillName: "Redux"
+        },
+        {
+            logo: viteJsLogo,
+            skillName: "Vite JS"
+        }
     ]
     return (
         <Box id="Skills" sx={{marginTop: "100px"}}>
