@@ -47,7 +47,7 @@ const Skills = () => {
         },
         {
             logo: reduxLogo,
-            skillName: "Redux"
+            skillName: "Redux Toolkit"
         },
         {
             logo: viteJsLogo,
