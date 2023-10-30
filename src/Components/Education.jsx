@@ -12,7 +12,7 @@ import {
 
 const Education = () => {
   return (
-    <div id="Education" style={{ marginTop: "75px" }} className="educationMain">
+    <div id="Education" style={{ paddingTop: "75px" }} className="educationMain">
       <Typography variant="h4" className="educationTitle font-young-serif">
         Education
       </Typography>
