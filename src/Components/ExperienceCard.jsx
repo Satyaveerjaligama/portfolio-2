@@ -13,7 +13,7 @@ import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 
 const ExperienceCard = () => {
   return (
-    <div id="Experience" style={{ marginTop: "75px" }} className="experienceMain">
+    <div id="Experience" style={{ paddingTop: "75px" }} className="experienceMain">
       <Typography variant="h4" className="workExperienceTitle">
         Work Experience
       </Typography>
