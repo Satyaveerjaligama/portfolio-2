@@ -1,0 +1,29 @@
+.first-grid {
+    align-self: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (min-width: 770px) {
+    .nav-options {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hamburger {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 769.98px) {
+    .nav-options, .logo {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
