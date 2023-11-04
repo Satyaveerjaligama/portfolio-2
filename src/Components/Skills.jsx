@@ -59,7 +59,7 @@ const Skills = () => {
             <Typography variant="h4" sx={{fontFamily: "Young Serif"}}>Skills</Typography>
             <div style={{display: "flex", justifyContent: "center", flexWrap: "wrap"}}>
             {skillsList.map((skill)=>
-                <Card className="skillCard">
+                <Card className="skillCard" key={skill.skillName}>
                     <img height="50px" width="50px" src={skill.logo} alt={`${skill.skillName} logo`}/>
                     <Typography sx={{fontFamily: "Young Serif"}}>{skill.skillName}</Typography>
                 </Card>
