@@ -1,5 +1,6 @@
 .first-grid {
     align-self: center;
+    width: 106px;
 }
 
 .logo {
@@ -7,7 +8,24 @@
     flex-direction: row;
 }
 
-@media screen and (min-width: 770px) {
+.left-drawer .MuiDrawer-paper {
+    background-color: #282c34;
+    color: white;
+}
+
+.drawer-options .MuiListItemIcon-root {
+    color: white;
+}
+.drawer-options .MuiListItemText-root .MuiListItemText-primary{
+    font-family: "Signika Negative";
+}
+
+.theme-switch {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 850px) {
     .nav-options {
         display: flex;
         flex-direction: row;
@@ -18,12 +36,16 @@
     }
 }
 
-@media screen and (max-width: 769.98px) {
+@media screen and (max-width: 849.98px) {
     .nav-options, .logo {
         display: none;
     }
 
     .hamburger {
         display: block;
+    }
+
+    .first-grid {
+        display: flex;
     }
 }
