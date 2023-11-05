@@ -1,0 +1,39 @@
+.contactMain {
+    background-color: transparent !important;
+    padding-top: 100px;
+}
+
+.contactMain .MuiGrid-container {
+    padding-top: 20px;
+}
+
+.contactIcons {
+    font-size: 10vh !important;
+    background-color: transparent !important;
+    transition: transform 0.2s, box-shadow 0.2s !important;
+}
+
+.contactIcons:active{
+    transform: translateX(4px) translateY(4px) !important;
+    box-shadow: 0 0 0 #1C5C9B !important;
+}
+
+@media screen and (max-width: 767.98px) and (min-width: 420px) {
+    .contactMain h4 {
+        font-size: 23px;
+    }
+
+    .contactMain {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 419.98px) {
+    .contactMain h4 {
+        font-size: 20px;
+    }
+
+    .contactMain {
+        padding-top: 60px;
+    }
+}

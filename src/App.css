@@ -65,28 +65,12 @@
   color: white;
 }
 
-.contactIcons {
-  font-size: 10vh !important;
-  background-color: transparent !important;
-  transition: transform 0.2s, box-shadow 0.2s !important;
-}
-
-.contactIcons:active{
-  transform: translateX(4px) translateY(4px) !important;
-  box-shadow: 0 0 0 #1C5C9B !important;
-}
-
 #light .contactIcons {
   color: #282c34 !important;
 }
 
 #dark .contactIcons {
   color: white !important;
-}
-
-.contactMain {
-  background-color: transparent !important;
-  padding-top: 100px;
 }
 
 .font-young-serif {
