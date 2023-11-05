@@ -29,7 +29,7 @@ const TopBar = () => {
         <Grid container sx={{justifyContent: "space-between"}} p={1}>
             <Grid item className="first-grid">
                 <Typography className="logo font-young-serif align-self-center">
-                  {`</>`}
+                  {" "}
                 </Typography>
                 <MenuRoundedIcon onClick={toggleDrawer(true)} className="hamburger"/>
                 <Drawer 
@@ -46,7 +46,7 @@ const TopBar = () => {
                 </a>
                 )}
             </Grid>
-            <Grid item sx={{ display: "flex", alignItems: "center"}}>
+            <Grid item className="theme-switch">
               <LightModeIcon />
                 <Switch onChange={()=>context.changeTheme()}/>
               <NightsStayIcon />

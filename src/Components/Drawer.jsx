@@ -11,35 +11,24 @@ import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import LaptopWindowsRoundedIcon from '@mui/icons-material/LaptopWindowsRounded';
 import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
 import PermContactCalendarRoundedIcon from '@mui/icons-material/PermContactCalendarRounded';
-import CropLandscapeRoundedIcon from '@mui/icons-material/CropLandscapeRounded';
+import CameraAltRoundedIcon from '@mui/icons-material/CameraAltRounded';
+import StarBorderRoundedIcon from '@mui/icons-material/StarBorderRounded';
+import "../Styles/TopBar.css";
 
-
+/*
+This component is used to show the left drawer. In mobile screens when the user click on hamburger
+this left drawer will be opened
+*/
 export default function Drawer(props) {
   const {openDrawer, toggleDrawer} = props;
-
-  const getIcon = (itemName) => {
-    if (itemName === "Home") {
-        return (
-            <HomeRoundedIcon />
-        )
-    } else if (itemName === "Experience") {
-        return (
-            <LaptopWindowsRoundedIcon />
-        )
-    } else if (itemName === "Education") {
-        return (
-            <SchoolRoundedIcon />
-        )
-    } else if (itemName === "Contact") {
-        return (
-            <PermContactCalendarRoundedIcon />
-        )
-    } else {
-        return (
-            <CropLandscapeRoundedIcon />
-        )
-    }
-  }
+  const icons = {
+    Home: <HomeRoundedIcon />,
+    Experience:<LaptopWindowsRoundedIcon />,
+    Education:<SchoolRoundedIcon />,
+    Contact:<PermContactCalendarRoundedIcon />,
+    Hobbies:<CameraAltRoundedIcon />,
+    Skills:<StarBorderRoundedIcon />,
+  };
 
   return (
     <div>
@@ -47,6 +36,7 @@ export default function Drawer(props) {
           <SwipeableDrawer
             anchor={"left"}
             open={openDrawer}
+            className="left-drawer"
             onClose={toggleDrawer(false)}
             onOpen={toggleDrawer(true)}
           >
@@ -59,16 +49,16 @@ export default function Drawer(props) {
                 <List>
                     {headerList.map((listItem, index) => (
                     <ListItem key={index} disablePadding>
-                        <ListItemButton href={`#${listItem}`}>
-                        <ListItemIcon>
-                            {getIcon(listItem)}
-                        </ListItemIcon>
-                        <ListItemText primary={listItem} />
+                        <ListItemButton className="drawer-options" href={`#${listItem}`}>
+                            <ListItemIcon>
+                                {icons[listItem]}
+                            </ListItemIcon>
+                            <ListItemText primary={listItem} />
                         </ListItemButton>
                     </ListItem>
                     ))}
                 </List>
-                </Box>
+            </Box>
           </SwipeableDrawer>
         </React.Fragment>
     </div>
