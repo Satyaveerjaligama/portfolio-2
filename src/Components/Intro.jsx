@@ -1,9 +1,10 @@
 import { Box, Typography } from "@mui/material";
 import Typewriter from "typewriter-effect";
+import "../Styles/HeroComponent.css";
 
-const Intro = () => {
+const HeroComponent = () => {
     return (
-        <Box id="Home" sx={{paddingTop: "100px"}}>
+        <Box id="Home" className="hero">
             <Typography variant="h3" className="font-young-serif">Hey, I'm <span style={{color: "#C887C5"}}>{`<SatyaveerJaligama />`}</span></Typography>
             <Typography variant="h5" className="font-young-serif">
                 <Typewriter
@@ -22,4 +23,4 @@ const Intro = () => {
     )
 }
 
-export default Intro;
+export default HeroComponent;
