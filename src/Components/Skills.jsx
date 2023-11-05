@@ -55,11 +55,11 @@ const Skills = () => {
         }
     ]
     return (
-        <Box id="Skills" sx={{paddingTop: "100px"}}>
+        <Box id="Skills" className="skills-box">
             <Typography variant="h4" sx={{fontFamily: "Young Serif"}}>Skills</Typography>
-            <div style={{display: "flex", justifyContent: "center", flexWrap: "wrap"}}>
+            <div className="skill-cards">
             {skillsList.map((skill)=>
-                <Card className="skillCard" key={skill.skillName}>
+                <Card className="singleSkillCard" key={skill.skillName}>
                     <img height="50px" width="50px" src={skill.logo} alt={`${skill.skillName} logo`}/>
                     <Typography sx={{fontFamily: "Young Serif"}}>{skill.skillName}</Typography>
                 </Card>
