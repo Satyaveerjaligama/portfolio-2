@@ -1,11 +1,12 @@
 import { Box, Grid, Link, Typography } from "@mui/material";
 import { LinkedIn, WhatsApp, Instagram, EmailOutlined, GitHub } from "@mui/icons-material";
+import "../Styles/ContactCard.css";
 
 const ContactCard = () => {
     return (
         <Box id="Contact" className="contactMain">
-            <Typography variant="h4" sx={{fontFamily: "Young Serif"}}>Contact Me</Typography>
-            <Grid container sx={{paddingTop: "20px"}}>
+            <Typography variant="h4" className="font-young-serif">Contact Me</Typography>
+            <Grid container>
                 <Grid item xs={6} sm={2.4}>
                     <Link href="https://www.linkedin.com/in/satyaveer-jaligama" target="_blank">
                         <LinkedIn className="contactIcons"/>
