@@ -13,7 +13,7 @@ import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 
 const ExperienceCard = () => {
   return (
-    <div id="Experience" style={{ paddingTop: "75px" }} className="experienceMain">
+    <div id="Experience" className="experienceMain">
       <Typography variant="h4" className="workExperienceTitle">
         Work Experience
       </Typography>
@@ -30,8 +30,8 @@ const ExperienceCard = () => {
               </TimelineDot>
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent>
-              <Typography className="companyName">Zuno General Insurance</Typography>
+            <TimelineContent className="companyInformation">
+              <Typography className="font-young-serif">Zuno General Insurance</Typography>
               <Typography className="experienceDuration">Aug 2022 - Present</Typography>
               <Typography className="companySkills">HTML | CSS | JavaScript | TypeScript | React JS | Next JS</Typography>
               <ul>
@@ -51,8 +51,8 @@ const ExperienceCard = () => {
                 <LaptopMacIcon />
               </TimelineDot>
             </TimelineSeparator>
-            <TimelineContent>
-              <Typography className="companyName">Vocera Communications</Typography>
+            <TimelineContent className="companyInformation">
+              <Typography className="font-young-serif">Vocera Communications</Typography>
               <Typography className="experienceDuration">Sept 2021 - July 2022</Typography>
               <Typography className="companySkills">Python | Selenium | Applitools</Typography>
               <ul>
