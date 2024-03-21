@@ -1,6 +1,6 @@
 .contactMain {
     background-color: transparent !important;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 .contactMain .MuiGrid-container {
@@ -8,7 +8,7 @@
 }
 
 .contactIcons {
-    font-size: 10vh !important;
+    font-size: 5vh !important;
     background-color: transparent !important;
     transition: transform 0.2s, box-shadow 0.2s !important;
 }

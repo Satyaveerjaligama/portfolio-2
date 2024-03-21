@@ -9,6 +9,7 @@ import tsLogo from "../Assests/TypeScriptLogo.png";
 import sassLogo from "../Assests/SassLogo.png";
 import viteJsLogo from "../Assests/ViteJsLogo.png";
 import reduxLogo from "../Assests/ReduxLogo.png";
+import dockerLogo from "../Assests/DockerLogo.webp";
 import "../Styles/Skills.css";
 
 const Skills = () => {
@@ -52,15 +53,19 @@ const Skills = () => {
         {
             logo: viteJsLogo,
             skillName: "Vite JS"
+        },
+        {
+            logo: dockerLogo,
+            skillName: "Docker"
         }
     ]
     return (
         <Box id="Skills" className="skills-box">
-            <Typography variant="h4" sx={{fontFamily: "Young Serif"}}>Skills</Typography>
+            <Typography variant="h6" sx={{fontFamily: "Young Serif"}}>Skills</Typography>
             <div className="skill-cards">
             {skillsList.map((skill)=>
                 <Card className="singleSkillCard" key={skill.skillName}>
-                    <img height="50px" width="50px" src={skill.logo} alt={`${skill.skillName} logo`}/>
+                    <img height="30px" width="30px" src={skill.logo} alt={`${skill.skillName} logo`}/>
                     <Typography sx={{fontFamily: "Young Serif"}}>{skill.skillName}</Typography>
                 </Card>
             )}

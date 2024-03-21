@@ -1,5 +1,5 @@
 .experienceMain {
-    padding-top: 75px;
+    padding-top: 30px;
 }
 
 .experienceCard {
@@ -7,6 +7,16 @@
     background-color: transparent !important;
     display: flex;
     justify-content: space-around;
+}
+
+.experienceCard > ul {
+    margin-bottom: 0px;
+}
+
+.company-details {
+    text-align: left !important;
+    flex-grow: 0 !important;
+    flex-basis: 150px !important;
 }
 
 .singleCard {
