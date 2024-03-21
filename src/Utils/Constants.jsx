@@ -1,1 +1,1 @@
-export const headerList = ['Home', 'Skills', 'Experience', 'Education', 'Hobbies', 'Contact'];
+export const headerList = ['Home', 'Skills', 'Experience', 'Education', 'Contact'];
