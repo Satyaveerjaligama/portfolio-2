@@ -9,6 +9,7 @@ import tsLogo from "../Assests/TypeScriptLogo.png";
 import sassLogo from "../Assests/SassLogo.png";
 import viteJsLogo from "../Assests/ViteJsLogo.png";
 import reduxLogo from "../Assests/ReduxLogo.png";
+import dockerLogo from "../Assests/DockerLogo.webp";
 import "../Styles/Skills.css";
 
 const Skills = () => {
@@ -52,6 +53,10 @@ const Skills = () => {
         {
             logo: viteJsLogo,
             skillName: "Vite JS"
+        },
+        {
+            logo: dockerLogo,
+            skillName: "Docker"
         }
     ]
     return (
