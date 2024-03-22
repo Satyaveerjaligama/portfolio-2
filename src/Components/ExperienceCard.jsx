@@ -12,6 +12,29 @@ import {
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 
 const ExperienceCard = () => {
+  const experienceDetails = [
+    {
+      role: "Frontend Developer",
+      employmentType: "Full time",
+      companyName: "Zuno General Insurance",
+      duration: "Aug 2022 - Present",
+      workDescription: [
+        "My responsibility at Zuno is to create the Frontend for the web applications based on the Business requirements.",
+        "I had an opportunity to work with technologies/languages like JavaScript, TypeScript, React JS, Next JS, Vite JS, Redux Toolkit, CSS, Sass, Material UI and Docker. Integration of REST APIs with the frontend using axios.",
+        "For the contribution that I have done to the company and team, I was awarded with the title 'Popper' (Surprise Achiever)."
+      ]
+    },
+    {
+      role: "Quality Assurance Engineer",
+      employmentType: "Internship",
+      companyName: "Vocera Communications",
+      duration: "Sept 2021 - July 2022 (Python | Selenium | Applitools)",
+      workDescription: [
+        "My responsibility was to write the Python with Selenium code in order to automate the manual testcases.",
+        "I have done most of the automation for testcases related to company's gadget (Vocera badge) then after a couple of testcases related to Mobile application and web application."
+      ]
+    }
+  ]
   return (
     <div id="Experience" className="experienceMain">
       <Typography variant="h6" className="workExperienceTitle">
@@ -19,60 +42,29 @@ const ExperienceCard = () => {
       </Typography>
       <div className="experienceCard">
         <Timeline>
-          <TimelineItem>
-            <TimelineOppositeContent className="company-details">
-              <Typography className="font-size-small font-young-serif">Frontend Developer</Typography>
-              <Typography className="font-size-small font-signika-negative">(Full time)</Typography>
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-              <TimelineDot>
-                <LaptopMacIcon />
-              </TimelineDot>
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent className="companyInformation">
-              <Typography className="font-size-small font-young-serif">Zuno General Insurance</Typography>
-              <Typography className="font-size-small experienceDuration">Aug 2022 - Present</Typography>
-              <ul>
-                <li className="font-size-small workDescription">
-                    My responsibility at Zuno is to create the Frontend for the web applications based on the Business requirements.
-                </li>
-                <li className="font-size-small workDescription">
-                    I had an opportunity to work with technologies/languages like JavaScript, TypeScript, React JS, Next JS, Vite JS, Redux Toolkit, CSS, Sass, Material UI and Docker.
-                    Integration of REST APIs with the frontend using axios.
-                </li>
-                <li className="font-size-small workDescription">
-                    For the contribution that I have done to the company and team, I was awarded with the title &quot;Popper&quot; (Surprise Achiever)
-                </li>
-              </ul>
-            </TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineOppositeContent className="company-details">
-              <Typography className="font-size-small font-young-serif">Quality Assurance Engineer</Typography>
-              <Typography className="font-size-small font-signika-negative">(Internship)</Typography>
-            </TimelineOppositeContent>
-            <TimelineSeparator>
-              <TimelineDot>
-                <LaptopMacIcon />
-              </TimelineDot>
-            </TimelineSeparator>
-            <TimelineContent className="companyInformation">
-              <Typography className="font-size-small font-young-serif">Vocera Communications</Typography>
-              <Typography className="font-size-small experienceDuration">Sept 2021 - July 2022 (Python | Selenium | Applitools)</Typography>
-              {/* <Typography className="font-size-small companySkills">Python | Selenium | Applitools</Typography> */}
-              {/* <ul>
-                <li className="font-size-small workDescription">
-                    Automated 350+ manual testcases using Selenium, Python and Applitools.
-                </li>
-              </ul> */}
-              <ul>
-                  <li className="font-size-small workDescription">My responsibility was to write the Python with Selenium code in order to automate the manual testcases.</li>
-                  <li className="font-size-small workDescription">I have written most of the automation code for textcases related to company&apos;s gadget (Vocera badge) then after a
-                      couple of testcases related to Mobile application and web application.</li>
-              </ul>
-            </TimelineContent>
-          </TimelineItem>
+          { experienceDetails.map((company, index)=>
+            <TimelineItem key={company.companyName}>
+              <TimelineOppositeContent className="company-details">
+                <Typography className="font-size-small font-young-serif">{company.role}</Typography>
+                <Typography className="font-size-small font-signika-negative">{`(${company.employmentType})`}</Typography>
+              </TimelineOppositeContent>
+              <TimelineSeparator>
+                <TimelineDot>
+                  <LaptopMacIcon />
+                </TimelineDot>
+                { experienceDetails.length !== index+1 && <TimelineConnector /> }
+              </TimelineSeparator>
+              <TimelineContent className="companyInformation">
+                <Typography className="font-size-small font-young-serif">{company.companyName}</Typography>
+                <Typography className="font-size-small experienceDuration">{company.duration}</Typography>
+                <ul>
+                { company.workDescription.map((point, index)=>
+                  <li className="font-size-small workDescription" key={index}>{point}</li>
+                )}
+                </ul>
+              </TimelineContent>
+            </TimelineItem>
+          )}
         </Timeline>
       </div>
     </div>

@@ -1,10 +1,11 @@
 .projects-main {
-    padding-top: 30px;
+    padding-top: 10px;
+    page-break-before: always;
 }
 
 .projects-container {
     width: 80vw !important;
-    margin: 10px auto 0px auto !important;
+    margin: 0px auto 0px auto !important;
 }
 
 .project-info {

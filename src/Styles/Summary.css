@@ -1,31 +1,21 @@
-.educationMain {
+.summary-main {
     padding-top: 30px;
 }
 
-.educationCard > ul {
-    margin-bottom: 0px;
-}
-
-.degree-name {
-    text-align: left !important;
-    flex-grow: 0 !important;
-    flex-basis: 230px !important;
-}
-
 @media screen and (min-width: 768px) and (max-width: 1023.98px) {
-    .educationMain h4 {
+    .summary-main h4 {
         font-size: 30px;
     }
 }
 
 @media screen and (max-width: 767.98px) and (min-width: 420px) {
-    .educationMain h4 {
+    .summary-main h4 {
         font-size: 23px;
     }
 }
 
 @media screen and (max-width: 419.98px) {
-    .educationMain h4 {
+    .summary-main h4 {
         font-size: 20px;
     }
 }

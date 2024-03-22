@@ -20,8 +20,8 @@ const Education = () => {
       <div className="educationCard">
         <Timeline>
           <TimelineItem>
-            <TimelineOppositeContent>
-              <Typography className="degreeName font-size-small font-young-serif">M.Tech Integrated Software Engineering</Typography>
+            <TimelineOppositeContent className="degree-name">
+              <Typography className="font-size-small font-young-serif">M.Tech Integrated in Software Engineering</Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot />
@@ -34,7 +34,7 @@ const Education = () => {
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent>
+            <TimelineOppositeContent className="degree-name">
               <Typography className="font-size-small font-young-serif">Intermediate (11<sup>th</sup>,12<sup>th</sup>)</Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
@@ -48,7 +48,7 @@ const Education = () => {
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent>
+            <TimelineOppositeContent className="degree-name">
               <Typography className="font-size-small font-young-serif">10<sup>th</sup></Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
