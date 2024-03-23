@@ -11,12 +11,12 @@ const ProjectsCard = () => {
     {
       title: "Portfolio 1",
       technologiesUsed: "React JS, TypeScript, Next JS, Sass, Tailwind, Material UI",
-      description: "It is a website with Multiple pages like Home, Skills, Projects, Experience and Contact. One can navigate through this pages and check my work."
+      description: "It is a website with multiple pages like Home, Skills, Projects, Experience and Contact. One can navigate through this pages and check my work."
     },
     {
       title: "Todo App",
       technologiesUsed: "React JS, TypeScript, Vite JS, Sass, Redux-Toolkit, Material UI",
-      description: "This app can be used to manage day to day tasks. It has 3 sections Dashboard, Completed and Pending Tasks. User can create, modify and delete tasks based on his requirement."
+      description: "This app can be used to manage day to day tasks. It has 4 sections Dashboard, All tasks, Completed and Pending Tasks. User can create, modify and delete tasks based on his requirement."
     },
     {
       title: "Portfolio 2",
