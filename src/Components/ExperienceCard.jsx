@@ -37,7 +37,7 @@ const ExperienceCard = () => {
   ]
   return (
     <div id="Experience" className="experienceMain">
-      <Typography variant="h6" className="workExperienceTitle">
+      <Typography variant="h6" className="workExperienceTitle text-decoration-underline">
         Work Experience
       </Typography>
       <div className="experienceCard">

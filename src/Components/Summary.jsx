@@ -4,7 +4,7 @@ import "../Styles/Summary.css";
 const Summary = () => {
   return (
     <div id="Education" className="summary-main">
-      <Typography variant="h6" className="font-young-serif">
+      <Typography variant="h6" className="font-young-serif text-decoration-underline">
         Summary
       </Typography>
       <Typography className="font-size-small font-signika-negative">

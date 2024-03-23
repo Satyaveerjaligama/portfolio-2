@@ -61,7 +61,7 @@ const Skills = () => {
     ]
     return (
         <Box id="Skills" className="skills-box">
-            <Typography variant="h6" sx={{fontFamily: "Young Serif"}}>Skills</Typography>
+            <Typography variant="h6" className="text-decoration-underline" sx={{fontFamily: "Young Serif"}}>Skills</Typography>
             <div className="skill-cards">
             {skillsList.map((skill)=>
                 <Card className="singleSkillCard" key={skill.skillName}>

@@ -14,7 +14,7 @@ import {
 const Education = () => {
   return (
     <div id="Education" className="educationMain">
-      <Typography variant="h6" className="educationTitle font-young-serif">
+      <Typography variant="h6" className="educationTitle font-young-serif text-decoration-underline">
         Education
       </Typography>
       <div className="educationCard">

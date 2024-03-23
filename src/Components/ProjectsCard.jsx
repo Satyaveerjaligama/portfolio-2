@@ -27,7 +27,7 @@ const ProjectsCard = () => {
 
   return (
     <div id="Project" className="projects-main">
-      <Typography variant="h6" className="font-young-serif">
+      <Typography variant="h6" className="font-young-serif text-decoration-underline">
         Projects
       </Typography>
       <Typography className="font-size-small font-signika-negative">(Only frontend is developed for the below projects)</Typography>
