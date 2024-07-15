@@ -7,7 +7,7 @@ import reactJsLogo from "../Assests/ReactJsLogo.png";
 import nextJsLogo from "../Assests/NextJsLogo.png";
 import tsLogo from "../Assests/TypeScriptLogo.png";
 import sassLogo from "../Assests/SassLogo.png";
-import viteJsLogo from "../Assests/ViteJsLogo.png";
+import materialUiLogo from "../Assests/materialUiLogo.svg";
 import reduxLogo from "../Assests/ReduxLogo.png";
 import dockerLogo from "../Assests/DockerLogo.webp";
 import "../Styles/Skills.css";
@@ -28,7 +28,7 @@ const Skills = () => {
         },
         {
             logo: jsLogo,
-            skillName: "Java Script"
+            skillName: "JavaScript"
         },
         {
             logo: reactJsLogo,
@@ -40,19 +40,19 @@ const Skills = () => {
         },
         {
             logo: tsLogo,
-            skillName: "Type Script"
-        },
-        {
-            logo: gitLogo,
-            skillName: "Git"
+            skillName: "TypeScript"
         },
         {
             logo: reduxLogo,
             skillName: "Redux Toolkit"
         },
         {
-            logo: viteJsLogo,
-            skillName: "Vite JS"
+            logo: materialUiLogo,
+            skillName: "Material UI"
+        },
+        {
+            logo: gitLogo,
+            skillName: "Git"
         },
         {
             logo: dockerLogo,

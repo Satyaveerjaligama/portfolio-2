@@ -20,8 +20,7 @@ const ExperienceCard = () => {
       duration: "Aug 2022 - Present",
       workDescription: [
         "My responsibility at Zuno is to create the Frontend for the web applications based on the Business requirements.",
-        "I had an opportunity to work with technologies/languages like JavaScript, TypeScript, React JS, Next JS, Vite JS, Redux Toolkit, CSS, Sass, Material UI and Docker. Integration of REST APIs with the frontend using axios.",
-        "For the contribution that I have done to the company and team, I was awarded with the title 'Popper' (Surprise Achiever)."
+        "I had an opportunity to work with technologies/languages like JavaScript, TypeScript, React JS, Next JS, Redux Toolkit, CSS, Sass, Material UI and Docker. Integration of REST APIs with the frontend using axios."
       ]
     },
     {
