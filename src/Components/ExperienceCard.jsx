@@ -14,7 +14,7 @@ import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 const ExperienceCard = () => {
   const experienceInfo = [
     {
-      role: "Frontend Developer",
+      role: "Software Developer",
       employmentType: "Full time",
       companyName: "Zuno General Insurance",
       tenure: "Aug 2022 - Present",
