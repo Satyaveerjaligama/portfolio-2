@@ -11,10 +11,10 @@ const HeroComponent = () => {
                     loop
                     onInit={(typewriter) => {
                         typewriter
-                            .typeString("Frontend Developer")
+                            .typeString("Software Developer")
                             .pauseFor(1000)
                             .deleteAll()
-                            .typeString("Frontend Developer")
+                            .typeString("Software Developer")
                             .start();
                     }}
                 />
